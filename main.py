@@ -33,5 +33,5 @@ with TelegramClient('session.session', TG_APIID, TG_APIHash) as client:
                 dosyaindir(msg)
             if "application/zip" in str(icerik):
                 dosyaindir(msg)
-            if "pplication/vnd.android.package-archive" in str(icerik):
+            if "application/vnd.android.package-archive" in str(icerik):
                 dosyaindir(msg)
