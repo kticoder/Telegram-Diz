@@ -3,7 +3,7 @@
 
 Bir kanal yada gruptaki herşeyi dızlayın.... 🐍
 
-![Repo Boyutu](https://img.shields.io/github/repo-size/kadirilgin1453/Telegram-Diz) ![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/kadirilgin1453/Telegram-Diz&title=Profile%20Views) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/kadirilgin1453/Telegram-Diz)
+![Repo Boyutu](https://img.shields.io/github/repo-size/kadirilgin1453/Telegram-Diz/) ![Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/kadirilgin1453/Telegram-Diz&title=Profile%20Views) [![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/kadirilgin1453/Telegram-Diz)
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/keyiflerolsun/)
