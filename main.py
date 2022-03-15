@@ -1,8 +1,8 @@
 from telethon.sync import TelegramClient, events
 import os
 from Ayarlar import *
-from rich import *
-from rich.console import *
+from rich import print
+from rich.console import Console
 konsol = Console()
 
 konsol.print("""[bold]---------------------------------- Program Başlatıldı | İndirme Başladı---------------------------------------------------------
