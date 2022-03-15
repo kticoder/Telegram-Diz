@@ -16,8 +16,6 @@ pip install -r requirements.txt
 
 ```
 
-## <img src="https://i.imgur.com/ETZ1ABF.png" height="24" align="center"> Kullanım
-
 ## Kurulum
 
 Config.json'u Kendinize Göre Düzenleyin.
@@ -32,7 +30,7 @@ Telegram api id ve hash'in nasıl alındığını bilmiyorsanız > [https://www.
    pip install -r requirements.txt
    ```
 
-## Kullanım
+## <img src="https://i.imgur.com/ETZ1ABF.png" height="24" align="center"> Kullanım
 
    ```sh
    python3 main.py
