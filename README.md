@@ -36,6 +36,7 @@ Telegram api id ve hash'in nasıl alındığını bilmiyorsanız > [https://www.
    python3 main.py
    ```
 
+Telegram Hesabınızla Giriş Yapın. Unutmayın Verilerin Çekileceği Grup Yada Kanala Katılmış Olmanız Gerekmekte!
 
 
 ## 🌐 Telif Hakkı ve Lisans
