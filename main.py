@@ -15,21 +15,18 @@ dosyakontrolFonksiyonu(api_hash,api_hash)
 with TelegramClient('session.session', TG_APIID, TG_APIHash) as client:
     messages = client.iter_messages(TG_KanalAdi)
     os.mkdir(TG_KanalAdi)
-    os.chdir(TG_KanalAdi) 
+    os.chdir(TG_KanalAdi)
     for msg in messages:
         icerik = msg.media
-        if Resim == "Evet":
-            if "MessageMediaPhoto" in str(icerik):
-                resimindir(msg)
-                konsol.log("[bold] ✅ Resim İndirildi.[/]")
-        if Video == "Evet":
-            if "video/mp4" in str(icerik):
-                videoindir(msg)
-                konsol.log("[bold] ✅ Video İndirildi.[/]")
-        if Pdf == "Evet":
-            if "application/pdf" in str(icerik):
-                pdfindir(msg)
-                konsol.log("[bold] ✅ Pdf İndirildi.[/]")
+        if Resim == "Evet" and "MessageMediaPhoto" in str(icerik):
+            resimindir(msg)
+            konsol.log("[bold] ✅ Resim İndirildi.[/]")
+        if Video == "Evet" and "video/mp4" in str(icerik):
+            videoindir(msg)
+            konsol.log("[bold] ✅ Video İndirildi.[/]")
+        if Pdf == "Evet" and "application/pdf" in str(icerik):
+            pdfindir(msg)
+            konsol.log("[bold] ✅ Pdf İndirildi.[/]")
         if DigerDosyalar == "Evet":
             if "application/rar" in str(icerik):
                 dosyaindir(msg)
